@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@/components/image";
 import { HoverLift } from "@/components/hover-lift";
 import { ScrollReveal } from "@/components/scroll-reveal";
 

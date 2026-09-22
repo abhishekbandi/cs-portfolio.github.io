@@ -8,6 +8,10 @@ export function generateStaticParams() {
   return PROJECTS.map((project) => ({ slug: project.slug }));
 }
 
+// Static export can only prerender known params — any slug outside
+// generateStaticParams() must 404 at build time rather than render on demand.
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: PageProps<"/work/[slug]">): Promise<Metadata> {

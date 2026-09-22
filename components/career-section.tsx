@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@/components/image";
 import { CtaButton } from "@/components/cta-button";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { EDUCATION, JOBS, type Education, type Job } from "@/lib/career";

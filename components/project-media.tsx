@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@/components/image";
 import { BackgroundVideo } from "@/components/background-video";
 import type { Project } from "@/lib/projects";
 

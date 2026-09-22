@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@/components/image";
 import { CtaButton } from "@/components/cta-button";
 
 export function Footer() {
