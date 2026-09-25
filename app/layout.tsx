@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Nav } from "@/components/nav";
 import { NavCtaBadge } from "@/components/nav-cta-badge";
 import { Footer } from "@/components/footer";
+import { ThemeManager } from "@/components/theme-manager";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,10 +16,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Placeholder — real title/description/OG image to follow.
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "",
+  title: {
+    default: "Chandrashekhar — Digital Product Designer",
+    template: "%s | Chandrashekhar",
+  },
+  description:
+    "Portfolio of Chandrashekhar, a digital designer with 10 years of experience in UI/UX design, branding, and product design across web and mobile.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -37,6 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
       </head>
       <body className="flex min-h-full flex-col bg-background text-foreground">
+        <ThemeManager />
         <Nav />
         <main className="flex-1 pt-16">{children}</main>
         <Footer />

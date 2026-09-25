@@ -19,7 +19,7 @@ export const EDUCATION: Education[] = [
     degree: "Graduate in Applied Art (Visual Design)",
     period: "March 2004 – June 2009",
     location: "Patna, India",
-    logo: { src: "/about/college-of-art-craft.png", width: 88, height: 93 },
+    logo: { src: "/about/college-of-art-craft.svg", width: 88, height: 88 },
   },
 ];
 

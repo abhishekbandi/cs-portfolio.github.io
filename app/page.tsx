@@ -9,7 +9,7 @@ export default function Home() {
       <div className="relative flex min-h-[calc(100vh-4rem-1px)] flex-col items-center justify-between overflow-hidden px-3 py-16 text-center">
         <BackgroundVideo
           className="absolute inset-0 -z-10 h-full w-full object-cover"
-          src="/home-backgound-video.mp4"
+          src="/home-background-video.mp4"
         />
         <div className="absolute inset-0 -z-10 bg-black/50" />
 

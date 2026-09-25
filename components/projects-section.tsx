@@ -1,6 +1,6 @@
+import { AapSection } from "@/components/aap-section";
 import { AiPlatformSection } from "@/components/ai-platform-section";
 import { CtaButton } from "@/components/cta-button";
-import { PlaceholderSection } from "@/components/placeholder-section";
 import { SwashSection } from "@/components/swash-section";
 import { TwoUpSection } from "@/components/two-up-section";
 import { TwoUpSection2 } from "@/components/two-up-section-2";
@@ -13,7 +13,7 @@ export function ProjectsSection() {
       </h2>
 
       <TwoUpSection />
-      <PlaceholderSection />
+      <AapSection />
       <TwoUpSection2 />
       <AiPlatformSection />
       <SwashSection />

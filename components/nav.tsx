@@ -11,6 +11,7 @@ import {
   useScroll,
 } from "framer-motion";
 import { ThemeToggle } from "./theme-toggle";
+import { getCaseStudyTheme } from "@/lib/projects";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -24,6 +25,7 @@ export function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const { scrollY } = useScroll();
+  const isFixedThemeRoute = getCaseStudyTheme(pathname) !== null;
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScrolled(latest > 8);
@@ -72,11 +74,11 @@ export function Nav() {
               </Link>
             );
           })}
-          <ThemeToggle />
+          {!isFixedThemeRoute && <ThemeToggle />}
         </nav>
 
         <div className="flex items-center gap-3 sm:hidden">
-          <ThemeToggle />
+          {!isFixedThemeRoute && <ThemeToggle />}
           <button
             type="button"
             aria-label="Toggle menu"

@@ -2,7 +2,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { getProject } from "@/lib/projects";
 
-export function PlaceholderSection() {
+export function AapSection() {
   const aap = getProject("aap")!;
 
   return (

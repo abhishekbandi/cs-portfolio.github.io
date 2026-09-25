@@ -39,7 +39,7 @@ export function ExpertiseSection() {
           <ScrollReveal delay={0.1} className="w-full">
             <HoverLift>
               <ExpertiseCard
-                src="/expertise/intraction-design.png"
+                src="/expertise/interaction-design.png"
                 alt="Interaction Design"
                 aspect="aspect-[440/500]"
               />

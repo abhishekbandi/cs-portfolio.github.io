@@ -1,3 +1,4 @@
+import { fileURLToPath } from "node:url";
 import type { NextConfig } from "next";
 
 // GitHub Pages project pages (https://<org-or-user>.github.io/<repo>/) need
@@ -16,6 +17,11 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
+  },
+  // Turbopack otherwise walks up to the nearest lockfile to infer the repo
+  // root, which can land outside this project's git repo. Pin it here.
+  turbopack: {
+    root: fileURLToPath(new URL(".", import.meta.url)),
   },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,

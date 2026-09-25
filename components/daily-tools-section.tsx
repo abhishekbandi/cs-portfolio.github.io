@@ -1,17 +1,34 @@
+import { Image } from "@/components/image";
 import { ScrollReveal } from "@/components/scroll-reveal";
 
-const ROW_1 = Array.from({ length: 6 });
-const ROW_2 = Array.from({ length: 6 });
+type Tool = { name: string; src: string };
 
-function ToolRow({
-  items,
-  reverse = false,
-}: {
-  items: unknown[];
-  reverse?: boolean;
-}) {
+const ROW_1: Tool[] = [
+  { name: "Adobe Photoshop", src: "/about/adobe-photoshop-svgrepo-com.svg" },
+  { name: "Adobe Illustrator", src: "/about/adobe-illustrator-svgrepo-com.svg" },
+  { name: "Adobe XD", src: "/about/adobe-xd-svgrepo-com.svg" },
+  {
+    name: "Adobe After Effects",
+    src: "/about/adobe-after-effects-svgrepo-com.svg",
+  },
+  {
+    name: "Adobe Creative Cloud",
+    src: "/about/adobe-creative-cloud-svgrepo-com.svg",
+  },
+];
+
+const ROW_2: Tool[] = [
+  { name: "Figma", src: "/about/figma-svgrepo-com.svg" },
+  { name: "Framer", src: "/about/framer-svgrepo-com.svg" },
+  { name: "Rive", src: "/about/Rive--Streamline-Simple-Icons.svg" },
+  { name: "ChatGPT", src: "/about/ChatGPT-Logo.svg" },
+];
+
+function ToolRow({ items, reverse = false }: { items: Tool[]; reverse?: boolean }) {
   return (
-    <div className="overflow-hidden">
+    <div
+      className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]"
+    >
       <div
         className={`flex w-max gap-4 py-2 ${
           reverse ? "animate-marquee-reverse" : "animate-marquee"
@@ -23,11 +40,19 @@ function ToolRow({
             className="flex shrink-0 gap-4"
             aria-hidden={group === 1}
           >
-            {items.map((_, index) => (
+            {items.map((tool, index) => (
               <div
-                key={index}
-                className="h-20 w-20 shrink-0 rounded-[16px] bg-muted sm:h-24 sm:w-24"
-              />
+                key={`${tool.name}-${index}`}
+                className="flex h-20 w-20 shrink-0 items-center justify-center rounded-[16px] bg-muted p-5 sm:h-24 sm:w-24"
+              >
+                <Image
+                  src={tool.src}
+                  alt={tool.name}
+                  width={64}
+                  height={64}
+                  className="h-full w-full object-contain"
+                />
+              </div>
             ))}
           </div>
         ))}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ProjectCaption } from "@/components/project-caption";
+import { ProjectMedia } from "@/components/project-media";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { PROJECTS } from "@/lib/projects";
 
@@ -9,7 +10,13 @@ export function WorkGrid() {
       {PROJECTS.map((project, index) => (
         <ScrollReveal key={project.slug} delay={Math.min(index * 0.05, 0.2)}>
           <Link href={`/work/${project.slug}`} className="group block">
-            <div className="aspect-[4/3] w-full rounded-[20px] bg-muted" />
+            <div className="aspect-[4/3] w-full overflow-hidden rounded-[20px] bg-muted">
+              <ProjectMedia
+                media={project.gridMedia ?? project.media}
+                alt={project.title}
+                className="h-full w-full object-cover"
+              />
+            </div>
             <ProjectCaption
               title={project.title}
               tags={project.tags}

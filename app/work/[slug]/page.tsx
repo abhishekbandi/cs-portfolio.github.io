@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import { HapptagCaseStudy } from "@/components/happtag-case-study";
+import { TenxCaseStudy } from "@/components/tenx-case-study";
 import { ProjectMedia } from "@/components/project-media";
 import { PROJECTS, getProject } from "@/lib/projects";
 
@@ -29,16 +30,17 @@ export default async function ProjectPage({
 
   if (!project) notFound();
 
+  if (project.slug === "happtag") {
+    return <HapptagCaseStudy />;
+  }
+
+  if (project.slug === "ten-x") {
+    return <TenxCaseStudy />;
+  }
+
   return (
     <div className="mx-auto max-w-5xl px-3 py-16">
-      <Link
-        href="/work"
-        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        ← Back to work
-      </Link>
-
-      <h1 className="mt-6 text-3xl font-semibold tracking-tight sm:text-4xl">
+      <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
         {project.title}
       </h1>
       <p className="mt-3 text-sm text-muted-foreground">{project.tags}</p>

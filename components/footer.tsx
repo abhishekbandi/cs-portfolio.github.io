@@ -19,10 +19,10 @@ export function Footer() {
 
         <div className="flex flex-col gap-2 lg:items-end">
           <a
-            href="mailto:cs@chandrashekhar.design"
+            href="mailto:info@csdn.design"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
-            cs@chandrashekhar.design
+            info@csdn.design
           </a>
           <a
             href="tel:+919304898229"
