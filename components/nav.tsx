@@ -45,7 +45,7 @@ export function Nav() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-3">
         <Link href="/" onClick={() => setMenuOpen(false)}>
           <Image
-            src="/combination_mark.svg"
+            src="/home/combination_mark.svg"
             alt="Logo"
             width={289}
             height={62}

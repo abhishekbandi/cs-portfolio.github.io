@@ -3,12 +3,12 @@ import { HoverLift } from "@/components/hover-lift";
 import { ScrollReveal } from "@/components/scroll-reveal";
 
 const SOCIAL_LINKS = [
-  { name: "Instagram", href: "#", icon: "/work/instagram.svg" },
-  { name: "LinkedIn", href: "#", icon: "/work/linked.svg" },
-  { name: "Behance", href: "#", icon: "/work/behance.svg" },
-  { name: "Dribbble", href: "#", icon: "/work/dribble.svg" },
-  { name: "Pinterest", href: "#", icon: "/work/pintrest.svg" },
-  { name: "YouTube", href: "#", icon: "/work/youtube.svg" },
+  { name: "Instagram", href: "#", icon: "/contact/instagram.svg" },
+  { name: "LinkedIn", href: "#", icon: "/contact/linked.svg" },
+  { name: "Behance", href: "#", icon: "/contact/behance.svg" },
+  { name: "Dribbble", href: "#", icon: "/contact/dribble.svg" },
+  { name: "Pinterest", href: "#", icon: "/contact/pintrest.svg" },
+  { name: "YouTube", href: "#", icon: "/contact/youtube.svg" },
 ];
 
 export function SocialLinksSection() {

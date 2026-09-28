@@ -233,7 +233,7 @@ export function HapptagCaseStudy() {
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
             <ScrollReveal>
               <Image
-                src="/projects-image/Happtag/icon_problem.svg"
+                src="/projects/Happtag/icon_problem.svg"
                 alt="Problem Statement"
                 width={70}
                 height={70}
@@ -247,7 +247,7 @@ export function HapptagCaseStudy() {
 
             <ScrollReveal delay={0.1}>
               <Image
-                src="/projects-image/Happtag/icon_goal.svg"
+                src="/projects/Happtag/icon_goal.svg"
                 alt="Goals"
                 width={70}
                 height={70}
@@ -267,7 +267,7 @@ export function HapptagCaseStudy() {
               <ScrollReveal key={insight} delay={i * 0.05}>
                 <div className="flex flex-col gap-4 rounded-[20px] p-6">
                   <Image
-                    src={`/projects-image/Happtag/icon_${i + 1}.svg`}
+                    src={`/projects/Happtag/icon_${i + 1}.svg`}
                     alt=""
                     width={292}
                     height={120}
@@ -482,7 +482,7 @@ export function HapptagCaseStudy() {
             </h2>
           </ScrollReveal>
 
-          <div className="mt-6 flex flex-col items-center gap-6 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-8">
+          <div className="mt-6 flex flex-col items-center gap-6 md:flex-row md:flex-nowrap md:items-end md:justify-center md:gap-8">
             {HAPPTAG_UI_SYSTEM.images.map((image, i) => (
               <ScrollReveal key={image.src} delay={i * 0.05} className="w-full md:w-auto">
                 <Image

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { AapCaseStudy } from "@/components/aap-case-study";
+import { BookduCaseStudy } from "@/components/bookdu-case-study";
 import { HapptagCaseStudy } from "@/components/happtag-case-study";
 import { TenxCaseStudy } from "@/components/tenx-case-study";
 import { ProjectMedia } from "@/components/project-media";
@@ -36,6 +38,14 @@ export default async function ProjectPage({
 
   if (project.slug === "ten-x") {
     return <TenxCaseStudy />;
+  }
+
+  if (project.slug === "aap") {
+    return <AapCaseStudy />;
+  }
+
+  if (project.slug === "bookdu") {
+    return <BookduCaseStudy />;
   }
 
   return (

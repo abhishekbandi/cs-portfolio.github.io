@@ -1,8 +1,13 @@
 export const TENX_HERO = {
   banner: {
-    src: "/projects-image/tenx/tenx_banner_hero_section.png",
+    src: "/projects/tenx/tenx_banner_hero_section.png",
     width: 5760,
     height: 2720,
+  },
+  bannerMobile: {
+    src: "/projects/tenx/tenx_hero_mobile.png",
+    width: 2000,
+    height: 3360,
   },
 };
 
@@ -12,7 +17,7 @@ export const TENX_OVERVIEW = {
 };
 
 export const TENX_BANNER_2 = {
-  src: "/projects-image/tenx/tenx_banner_1.png",
+  src: "/projects/tenx/tenx_banner_1.png",
   width: 1440,
   height: 1000,
 };
@@ -20,19 +25,19 @@ export const TENX_BANNER_2 = {
 export const TENX_PROBLEM_SOLUTION = {
   heading: "Problem & Solution",
   problem: {
-    icon: "/projects-image/tenx/tenx_icon_problem.svg",
+    icon: "/projects/tenx/tenx_icon_problem.svg",
     heading: "Problem",
     body: "In today's fast-paced world, users face multiple challenges when managing their daily financial transactions. Traditional banking apps are often slow, overloaded with complex features, and inconvenient for quick payments.",
   },
   solution: {
-    icon: "/projects-image/tenx/tenx_icon_solution.svg",
+    icon: "/projects/tenx/tenx_icon_solution.svg",
     heading: "Solution",
     body: "TenX provides an all-in-one mobile payment solution that brings speed, simplicity, and security to your fingertips. With instant money transfers, seamless bill payments, QR-based offline payments, and real-time expense tracking.",
   },
   intro:
     "TenX is a fast, secure, and user-friendly mobile payment app designed to simplify your daily financial transactions. Whether you're sending money to friends, paying bills, or making purchases online and in-store, Ten X makes every payment smooth and effortless.",
   logo: {
-    src: "/projects-image/tenx/tenx_logo.svg",
+    src: "/projects/tenx/tenx_logo.svg",
     width: 238,
     height: 238,
   },
@@ -41,19 +46,19 @@ export const TENX_PROBLEM_SOLUTION = {
 export const TENX_LOGO_DESIGN = {
   heading: "Logo Design",
   bento: [
-    { src: "/projects-image/tenx/tenx_logo_design_1.png", width: 2892, height: 2284 },
-    { src: "/projects-image/tenx/tenx_logo_design_2.png", width: 2196, height: 2295 },
+    { src: "/projects/tenx/tenx_logo_design_1.png", width: 2892, height: 2284 },
+    { src: "/projects/tenx/tenx_logo_design_2.png", width: 2196, height: 2295 },
   ],
   full: {
-    src: "/projects-image/tenx/tenx_logo_design_3.png",
+    src: "/projects/tenx/tenx_logo_design_3.png",
     width: 5328,
     height: 4640,
   },
 };
 
 export const TENX_COLOR_UI = [
-  { src: "/projects-image/tenx/tenx_color_ui_1.png", width: 1785, height: 3162 },
-  { src: "/projects-image/tenx/tenx_color_ui_2.png", width: 3372, height: 3160 },
+  { src: "/projects/tenx/tenx_color_ui_1.png", width: 1785, height: 3162 },
+  { src: "/projects/tenx/tenx_color_ui_2.png", width: 3372, height: 3160 },
 ];
 
 export const TENX_TYPOGRAPHY = {
@@ -100,7 +105,7 @@ export const TENX_USER_RESEARCH = {
   body: "From research to launch, the process focused on understanding user behavior in managing multiple currencies and digital wallets, aiming for a faster, clearer, and more trustworthy experience.",
   insights: {
     icon: {
-      src: "/projects-image/tenx/user_research_1.svg",
+      src: "/projects/tenx/user_research_1.svg",
       width: 345,
       height: 117,
     },
@@ -109,19 +114,19 @@ export const TENX_USER_RESEARCH = {
     body: "66% of users expressed interest in a unified dashboard that connects all their accounts & simplifies daily financial actions.",
   },
   banner: {
-    src: "/projects-image/tenx/user_research_banner_1.png",
+    src: "/projects/tenx/user_research_banner_1.png",
     width: 5296,
     height: 3556,
   },
   banners: [
-    { src: "/projects-image/tenx/user_research_banner_2.png", width: 2508, height: 1524 },
-    { src: "/projects-image/tenx/user_research_banner_3.png", width: 2576, height: 1524 },
+    { src: "/projects/tenx/user_research_banner_2.png", width: 2508, height: 1524 },
+    { src: "/projects/tenx/user_research_banner_3.png", width: 2576, height: 1524 },
   ],
   findings: [
     {
       align: "right",
       icon: {
-        src: "/projects-image/tenx/user_research_2.svg",
+        src: "/projects/tenx/user_research_2.svg",
         width: 229,
         height: 115,
       },
@@ -131,7 +136,7 @@ export const TENX_USER_RESEARCH = {
     {
       align: "left",
       icon: {
-        src: "/projects-image/tenx/user_research_3.svg",
+        src: "/projects/tenx/user_research_3.svg",
         width: 229,
         height: 115,
       },
@@ -144,27 +149,27 @@ export const TENX_USER_RESEARCH = {
 export const TENX_SOCIAL_MEDIA = {
   heading: "Social Media",
   banner: {
-    src: "/projects-image/tenx/tenx_banner_2.png",
+    src: "/projects/tenx/tenx_banner_2.png",
     width: 1440,
     height: 1080,
   },
   gallery: [
-    { src: "/projects-image/tenx/tenx_banner_3.png", width: 1552, height: 2708 },
-    { src: "/projects-image/tenx/tenx_banner_4.png", width: 1552, height: 2704 },
-    { src: "/projects-image/tenx/tenx_banner_5.png", width: 1552, height: 2708 },
+    { src: "/projects/tenx/tenx_banner_3.png", width: 1552, height: 2708 },
+    { src: "/projects/tenx/tenx_banner_4.png", width: 1552, height: 2704 },
+    { src: "/projects/tenx/tenx_banner_5.png", width: 1552, height: 2708 },
   ],
 };
 
 export const TENX_SCREEN_DESIGN = {
   heading: "Screen Design",
   images: [
-    { src: "/projects-image/tenx/tenx_screen_design_1.png", width: 1612, height: 2696 },
-    { src: "/projects-image/tenx/tenx_screen_design_2.png", width: 1496, height: 2712 },
+    { src: "/projects/tenx/tenx_screen_design_1.png", width: 1612, height: 2696 },
+    { src: "/projects/tenx/tenx_screen_design_2.png", width: 1496, height: 2712 },
   ],
   body: "A modern fintech interface that prioritizes usability, allowing users to review exchange rates, verify transfer amounts, and initiate transactions effortlessly through a simple and intuitive design.",
   banners: [
-    { src: "/projects-image/tenx/tenx_screen_design_3.png", width: 2880, height: 2000 },
-    { src: "/projects-image/tenx/tenx_screen_design_4.png", width: 2880, height: 2000 },
+    { src: "/projects/tenx/tenx_screen_design_3.png", width: 2880, height: 2000 },
+    { src: "/projects/tenx/tenx_screen_design_4.png", width: 2880, height: 2000 },
   ],
   kycBody:
     "Designed with security and usability in mind, the KYC flow enables users to verify their identity through a guided scanning process, supported by clear instructions, progress tracking, and accessible recovery options.",
@@ -172,41 +177,69 @@ export const TENX_SCREEN_DESIGN = {
 
 export const TENX_SCREEN_FEATURES = [
   {
-    image: { src: "/projects-image/tenx/tenx_screen_design_5.png", width: 2400, height: 4800 },
+    image: { src: "/projects/tenx/tenx_screen_design_5.png", width: 2400, height: 4800 },
     imageSide: "left" as const,
-    body: null as string | null,
+    body: "A clean and intuitive transfer screen that enables users to send money from Australia to India by clearly displaying live exchange rates, transfer amounts, fees, and delivery estimates for a secure and transparent remittance experience.",
   },
   {
-    image: { src: "/projects-image/tenx/tenx_screen_design_6.png", width: 2400, height: 4800 },
+    image: { src: "/projects/tenx/tenx_screen_design_6.png", width: 2400, height: 4800 },
     imageSide: "right" as const,
     body: "Once KYC is successfully completed, users gain access to their recipient list and can quickly initiate a money transfer with live exchange rates.",
   },
   {
-    image: { src: "/projects-image/tenx/tenx_screen_design_7.png", width: 2400, height: 4800 },
+    image: { src: "/projects/tenx/tenx_screen_design_7.png", width: 2400, height: 4800 },
     imageSide: "left" as const,
     body: "The bank selection screen simplifies recipient onboarding by providing a searchable list of supported banks, helping users complete transfers with confidence.",
   },
   {
-    image: { src: "/projects-image/tenx/tenx_screen_design_8.png", width: 2400, height: 4800 },
+    image: { src: "/projects/tenx/tenx_screen_design_8.png", width: 2400, height: 4800 },
     imageSide: "right" as const,
     body: "A searchable recipient list allows users to find existing beneficiaries or add a new one, streamlining the money transfer process.",
   },
   {
-    image: { src: "/projects-image/tenx/tenx_screen_design_9.png", width: 2400, height: 4800 },
+    image: { src: "/projects/tenx/tenx_screen_design_9.png", width: 2400, height: 4800 },
     imageSide: "left" as const,
     body: "Users can securely complete their Australia-to-India money transfer by entering card details, choosing to save their card, and confirming payment through an encrypted checkout experience.",
   },
   {
-    image: { src: "/projects-image/tenx/tenx_screen_design_10.png", width: 2400, height: 4800 },
+    image: { src: "/projects/tenx/tenx_screen_design_10.png", width: 2400, height: 4800 },
     imageSide: "right" as const,
     body: "A simple and informative confirmation experience that gives users immediate assurance of a successful transfer, along with access to transaction records and receipt sharing for future reference.",
   },
-  {
-    image: { src: "/projects-image/tenx/tenx_screen_design_11.png", width: 5396, height: 4664 },
-    imageSide: "left" as const,
-    body: null as string | null,
-  },
 ];
+
+export const TENX_SCREEN_FEATURE_BANNER = {
+  src: "/projects/tenx/tenx_screen_design_11.png",
+  width: 5396,
+  height: 4664,
+};
+
+export const TENX_SCREEN_GALLERY_ROW_1 = [
+  { src: "/projects/tenx/tenx_screen_design_12.png", width: 1136, height: 5660 },
+  { src: "/projects/tenx/tenx_screen_design_13.png", width: 1136, height: 4220 },
+  { src: "/projects/tenx/tenx_screen_design_14.png", width: 1136, height: 5692 },
+  { src: "/projects/tenx/tenx_screen_design_15.png", width: 1136, height: 4936 },
+];
+
+export const TENX_SCREEN_GALLERY_ROW_2 = [
+  { src: "/projects/tenx/tenx_screen_design_16.png", width: 1136, height: 3328 },
+  { src: "/projects/tenx/tenx_screen_design_17.png", width: 1136, height: 3844 },
+  { src: "/projects/tenx/tenx_screen_design_18.png", width: 1136, height: 4764 },
+];
+
+export const TENX_SCREEN_DESIGN_BANNER_2 = {
+  src: "/projects/tenx/tenx_screen_design_19.png",
+  width: 5324,
+  height: 3964,
+};
+
+export const TENX_CLOSING = {
+  body: "After round of user testing and feedback, we're proud to showcase the refined TENX experience a faster, smarter, and more intuitive way to manage global currencies.",
+  marks: [
+    { src: "/projects/tenx/tenx_screen_design_20.svg", width: 540, height: 556 },
+    { src: "/projects/tenx/tenx_screen_design_21.svg", width: 556, height: 556 },
+  ],
+};
 
 export const TENX_META = {
   items: [

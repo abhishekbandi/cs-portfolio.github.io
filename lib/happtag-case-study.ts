@@ -9,26 +9,26 @@ export const HAPPTAG_META = {
 
 export const HAPPTAG_HERO = {
   heading: "Tag It & Forget Forgetting!",
-  video: "/work/case-study-Happtag-1-.mp4",
+  video: "/work/happtag.mp4",
   intro:
     "Introduced in April 2025, HappTag is a compact, Bluetooth-enabled tracking device built in India. It integrates securely with the SMARTHAPPS Find My network—featuring Precision Finding, Lost Mode, and end-to-end encryption—to help users easily and privately locate personal items like keys, wallets, and bags.",
   illustration: {
-    src: "/projects-image/Happtag/illustration_1.png",
+    src: "/projects/Happtag/illustration_1.png",
     width: 3476,
     height: 3704,
   },
   illustration2: {
-    src: "/projects-image/Happtag/illustration_2.png",
+    src: "/projects/Happtag/illustration_2.png",
     width: 1277,
     height: 668,
   },
   illustration3: {
-    src: "/projects-image/Happtag/illustration_3.png",
+    src: "/projects/Happtag/illustration_3.png",
     width: 5760,
     height: 3195,
   },
   illustration4: {
-    src: "/projects-image/Happtag/illustration_4.png",
+    src: "/projects/Happtag/illustration_4.png",
     width: 1440,
     height: 1272,
   },
@@ -109,13 +109,13 @@ export const HAPPTAG_IDEATION = {
   heading: "Ideation & Concept Development",
   caption: "Conduct brainstorming and sketching sessions for app and device interaction.",
   products: [
-    { src: "/projects-image/Happtag/product_1.png", width: 432, height: 261 },
-    { src: "/projects-image/Happtag/product_2.png", width: 502, height: 261 },
-    { src: "/projects-image/Happtag/product_3.png", width: 499, height: 438 },
-    { src: "/projects-image/Happtag/product_4.png", width: 432, height: 438 },
-    { src: "/projects-image/Happtag/product_5.png", width: 937, height: 937 },
-    { src: "/projects-image/Happtag/product_6.png", width: 461, height: 461 },
-    { src: "/projects-image/Happtag/product_7.png", width: 461, height: 461 },
+    { src: "/projects/Happtag/product_1.png", width: 432, height: 261 },
+    { src: "/projects/Happtag/product_2.png", width: 502, height: 261 },
+    { src: "/projects/Happtag/product_3.png", width: 499, height: 438 },
+    { src: "/projects/Happtag/product_4.png", width: 432, height: 438 },
+    { src: "/projects/Happtag/product_5.png", width: 937, height: 937 },
+    { src: "/projects/Happtag/product_6.png", width: 461, height: 461 },
+    { src: "/projects/Happtag/product_7.png", width: 461, height: 461 },
   ],
 };
 
@@ -131,7 +131,7 @@ export type BrandDetailBox = {
 
 export const HAPPTAG_BRAND_DETAIL = {
   svg: {
-    src: "/projects-image/Happtag/brand_logo_image.svg",
+    src: "/projects/Happtag/brand_logo_image.svg",
     width: 614,
     height: 701,
   },
@@ -169,14 +169,14 @@ export const HAPPTAG_BRANDING = {
   eyebrow: "Logo",
   heading: "Visual Design & Branding",
   logo: {
-    src: "/projects-image/Happtag/logo_happtag.png",
+    src: "/projects/Happtag/logo_happtag.png",
     width: 1081,
     height: 555,
   },
   typeface: {
     heading: "Typeface",
     icon: {
-      src: "/projects-image/Happtag/typeface_oneday.svg",
+      src: "/projects/Happtag/typeface_oneday.svg",
       width: 626,
       height: 198,
     },
@@ -189,18 +189,18 @@ export const HAPPTAG_BRANDING = {
 export const HAPPTAG_UI_SYSTEM = {
   heading: "UI System",
   images: [
-    { src: "/projects-image/Happtag/ui_system_1.svg", width: 240, height: 212 },
-    { src: "/projects-image/Happtag/ui_system_2.svg", width: 403, height: 695 },
-    { src: "/projects-image/Happtag/ui_system_3.svg", width: 435, height: 803 },
+    { src: "/projects/Happtag/ui_system_1.svg", width: 240, height: 212 },
+    { src: "/projects/Happtag/ui_system_2.svg", width: 403, height: 695 },
+    { src: "/projects/Happtag/ui_system_3.svg", width: 435, height: 803 },
   ],
 };
 
 export const HAPPTAG_UI = {
   heading: "High-fidelity UI mockups for mobile - Clear design for safety",
   hifi: [
-    { src: "/projects-image/Happtag/hifi_1.svg", width: 617, height: 616 },
-    { src: "/projects-image/Happtag/hifi_2.svg", width: 283, height: 615 },
-    { src: "/projects-image/Happtag/hifi_3.svg", width: 295, height: 615 },
+    { src: "/projects/Happtag/hifi_1.svg", width: 617, height: 616 },
+    { src: "/projects/Happtag/hifi_2.svg", width: 283, height: 615 },
+    { src: "/projects/Happtag/hifi_3.svg", width: 295, height: 615 },
   ],
 };
 
@@ -214,10 +214,10 @@ export const HAPPTAG_PROTOTYPE = {
   featureEyebrow: "Feature",
   featureHeading: "Small Tag, Big Impact",
   featureVideos: [
-    "/projects-image/Happtag/happ_tag_video_1.mp4",
-    "/projects-image/Happtag/happ_tag_video_2.mp4",
-    "/projects-image/Happtag/happ_tag_video_3.mp4",
-    "/projects-image/Happtag/happ_tag_video_4.mp4",
+    "/projects/Happtag/happ_tag_video_1.mp4",
+    "/projects/Happtag/happ_tag_video_2.mp4",
+    "/projects/Happtag/happ_tag_video_3.mp4",
+    "/projects/Happtag/happ_tag_video_4.mp4",
   ],
   features: [
     {
@@ -247,11 +247,11 @@ export const HAPPTAG_PROTOTYPE = {
   ] satisfies HapptagFeature[],
   reverseFindMedia: {
     type: "video" as const,
-    src: "/projects-image/Happtag/happ_tag_video_5.mp4",
+    src: "/projects/Happtag/happ_tag_video_5.mp4",
   },
   fallDetectionMedia: {
     type: "image" as const,
-    src: "/projects-image/Happtag/happ_tag_image_6.png",
+    src: "/projects/Happtag/happ_tag_image_6.png",
     width: 824,
     height: 1158,
   },
@@ -262,12 +262,12 @@ export const HAPPTAG_PROTOTYPE = {
 export const HAPPTAG_FEATURE_BENTO = {
   // Left column, stacked: "Snaps Right In" then "Powerful Inside".
   leftCards: [
-    { type: "video" as const, src: "/projects-image/Happtag/feature_1.mp4" },
-    { type: "video" as const, src: "/projects-image/Happtag/feature_2.mp4" },
+    { type: "video" as const, src: "/projects/Happtag/feature_1.mp4" },
+    { type: "video" as const, src: "/projects/Happtag/feature_2.mp4" },
   ],
   // Right column: one big hero photo, same height as the left column.
   hero: {
-    src: "/projects-image/Happtag/feature_3.png",
+    src: "/projects/Happtag/feature_3.png",
     width: 3612,
     height: 3237,
   },
@@ -275,21 +275,21 @@ export const HAPPTAG_FEATURE_BENTO = {
   bottomRow: [
     {
       type: "image" as const,
-      src: "/projects-image/Happtag/feature_4.png",
+      src: "/projects/Happtag/feature_4.png",
       width: 1340,
       height: 1272,
       alt: "Range: 45 meters",
     },
     {
       type: "image" as const,
-      src: "/projects-image/Happtag/feature_5.png",
+      src: "/projects/Happtag/feature_5.png",
       width: 1268,
       height: 1272,
       alt: "Connect via Bluetooth",
     },
     {
       type: "video" as const,
-      src: "/projects-image/Happtag/feature_6.mp4",
+      src: "/projects/Happtag/feature_6.mp4",
       alt: "Exploded view of HappTag components",
     },
   ],
@@ -297,12 +297,12 @@ export const HAPPTAG_FEATURE_BENTO = {
 
 export const HAPPTAG_PACKAGING = {
   banner1: {
-    src: "/projects-image/Happtag/happ_banner_1.png",
+    src: "/projects/Happtag/happ_banner_1.png",
     width: 5760,
     height: 2800,
   },
   banner2: {
-    src: "/projects-image/Happtag/happ_bannger_2.png",
+    src: "/projects/Happtag/happ_bannger_2.png",
     width: 5120,
     height: 1680,
   },

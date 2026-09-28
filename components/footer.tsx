@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-3 py-12 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap items-center gap-6">
           <Image
-            src="/logomark.svg"
+            src="/home/logomark.svg"
             alt="Logo"
             width={160}
             height={160}
