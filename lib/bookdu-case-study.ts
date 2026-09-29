@@ -155,11 +155,160 @@ export const BOOKDU_DESIGN_PROCESS = {
 type BookduImage = { src: string; width: number; height: number };
 
 export const BOOKDU_BENTO: {
+  heading: string;
   left: BookduImage;
   rightTop: BookduImage | null;
   rightBottom: BookduImage | null;
 } = {
+  heading: "Empathize",
   left: { src: "/projects/bookdu/booku_banner_2.png", width: 1972, height: 4436 },
-  rightTop: null,
-  rightBottom: null,
+  rightTop: { src: "/projects/bookdu/booku_flow_1.png", width: 2720, height: 2236 },
+  rightBottom: { src: "/projects/bookdu/booku_flow_2.png", width: 2720, height: 2006 },
+};
+
+export const BOOKDU_USER_INTERVIEW = {
+  heading: "User Interview: Qualitative Interview",
+  body: "I conducted a survey where I asked potential users via a questionnaire about the challenges they face with book apps. The questions are as follows:",
+  questionsHeading: "Question",
+  answersHeading: "Common answers",
+  questions: [
+    "What's your age?",
+    "What's your gender?",
+    "What do you do for a living?",
+    "Do you read books or listen to audio books?",
+    "What type of books do you read?",
+    "How frequently do you read or listen to a book?",
+    "Do you prefer reading online or offline?",
+    "How often do you purchase a book or journal?",
+    "From where would you like to purchase a book or journal?",
+    "How would you feel about reading books online?",
+    "How would you feel about that app, features and UI?",
+  ],
+  answers: [
+    "18 to 64",
+    "Both",
+    "Students, Professors, Doctors, Nurses, Technicians, Doctorates, Researchers",
+    "Depends on book",
+    "Education, Research, Knowledge, Novels, Self Learning",
+    "Daily, weekly twice, monthly 8 days.",
+    "Mostly online, walk to the library to read offline.",
+    "Monthly 1, 2, every 6 months, read article every day.",
+    "Online stores, apps, yearly subscription from the publisher.",
+    "Online books are more easy access and ready to read.",
+    "Only a few of the apps have required features, for every product type need to download different types of apps.",
+  ],
+};
+
+export const BOOKDU_DEFINE = {
+  heading: "Define",
+  images: [
+    { src: "/projects/bookdu/booku_personal_1.png", width: 4964, height: 2860 },
+    { src: "/projects/bookdu/booku_personal_2.png", width: 4937, height: 2788 },
+    {
+      src: "/projects/bookdu/booku_empathy_mapping.png",
+      width: 5760,
+      height: 2532,
+      heading: "Empathy Mapping",
+    },
+    {
+      src: "/projects/bookdu/booku_journey_mapping.png",
+      width: 5600,
+      height: 3592,
+      heading: "Journey Mapping",
+      scenario:
+        "Scenario: Most book readers are transformed to digital. Search for the best app with a good user experience and necessary features which gives them a good reading experience and a smooth exit process.",
+    },
+    {
+      src: "/projects/bookdu/booku_site_map_1.png",
+      width: 5688,
+      height: 2628,
+      heading: "Site Map",
+    },
+    {
+      src: "/projects/bookdu/booku_site_map_2.png",
+      width: 5760,
+      height: 1592,
+      heading: "User Flow B2B",
+    },
+    {
+      src: "/projects/bookdu/booku_site_map_3.png",
+      width: 5760,
+      height: 1656,
+      heading: "User Flow B2C",
+    },
+    {
+      src: "/projects/bookdu/booku_mifi.png",
+      width: 5760,
+      height: 8606,
+      heading: "Mid Fidelity",
+    },
+  ],
+};
+
+export const BOOKDU_SURVEY_RESULTS = {
+  heading: "Survey & interview results",
+  image: {
+    src: "/projects/bookdu/booku_survey_illustrate.svg",
+    width: 207,
+    height: 207,
+  },
+  points: [
+    "Users don't seem to care much about setting goals or personal reading stats.",
+    "Users care more about keeping track of books they want to read.",
+    "Users are interested in what their friends and family are reading.",
+    "New books are primarily discovered by looking at and hearing about them.",
+    "Users especially like recommendations from people they trust, even more so from people they know personally.",
+    "Users prefer reviews from trusted sources, such as news sites, blogs, or book critics, rather than from random people.",
+    "Useful, accurate recommendations are helpful because they filter through the overwhelming number of books available.",
+  ],
+};
+
+export const BOOKDU_VISUAL_DESIGN = {
+  heading: "Visual Design",
+  body: "It enhances the user experience by aligning aesthetics with functionality, ensuring athletes enjoy a seamless and visually appealing booking process.",
+  images: [
+    { src: "/projects/bookdu/booku_vd_1.svg", width: 1074, height: 310 },
+    { src: "/projects/bookdu/booku_vd_2.svg", width: 1440, height: 609 },
+    { src: "/projects/bookdu/booku_vd_3.svg", width: 1440, height: 293 },
+    {
+      src: "/projects/bookdu/booku_vd_4.svg",
+      width: 1440,
+      height: 531,
+      heading: "Icons",
+    },
+    {
+      src: "/projects/bookdu/booku_vd_5.png",
+      width: 5600,
+      height: 2278,
+      heading: "Illustrations",
+    },
+    {
+      src: "/projects/bookdu/booku_vd_6.png",
+      width: 5760,
+      height: 2708,
+      heading: "Design System",
+    },
+  ],
+};
+
+export const BOOKDU_BRAND_IDENTITY = {
+  heading: "Brand Identity",
+  image: { src: "/projects/bookdu/booku_brand_1.png", width: 5760, height: 2479 },
+};
+
+export const BOOKDU_HOME_SCREEN = {
+  heading: "Home Screen",
+  images: [
+    { src: "/projects/bookdu/booku_design_1.png", width: 5760, height: 4096 },
+    { src: "/projects/bookdu/booku_design_2.png", width: 5760, height: 8192 },
+    { src: "/projects/bookdu/booku_design_3.png", width: 5760, height: 5119 },
+    { src: "/projects/bookdu/booku_design_4.png", width: 5760, height: 4088 },
+    { src: "/projects/bookdu/booku_design_5.png", width: 5760, height: 3152 },
+    { src: "/projects/bookdu/booku_design_6.png", width: 5760, height: 1499 },
+  ],
+};
+
+export const BOOKDU_VISIT_WEBSITE = {
+  label: "Visit Website",
+  href: null as string | null,
 };
