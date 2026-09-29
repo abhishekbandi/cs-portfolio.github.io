@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { AapCaseStudy } from "@/components/aap-case-study";
 import { BookduCaseStudy } from "@/components/bookdu-case-study";
 import { PrepmyskillsCaseStudy } from "@/components/prepmyskills-case-study";
+import { NexaCaseStudy } from "@/components/nexa-case-study";
 import { SwashCaseStudy } from "@/components/swash-case-study";
 import { HapptagCaseStudy } from "@/components/happtag-case-study";
 import { TenxCaseStudy } from "@/components/tenx-case-study";
@@ -56,6 +57,10 @@ export default async function ProjectPage({
 
   if (project.slug === "swash") {
     return <SwashCaseStudy />;
+  }
+
+  if (project.slug === "ai-platform") {
+    return <NexaCaseStudy />;
   }
 
   return (

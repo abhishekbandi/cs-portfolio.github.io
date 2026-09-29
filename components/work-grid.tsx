@@ -10,7 +10,7 @@ export function WorkGrid() {
       {PROJECTS.map((project, index) => (
         <ScrollReveal key={project.slug} delay={Math.min(index * 0.05, 0.2)}>
           <Link href={`/work/${project.slug}`} className="group block">
-            <div className="aspect-[4/3] w-full overflow-hidden rounded-[20px] bg-muted">
+            <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-muted">
               <ProjectMedia
                 media={project.gridMedia ?? project.media}
                 alt={project.title}

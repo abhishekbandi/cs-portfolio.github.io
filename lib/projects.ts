@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     gridMedia: {
       type: "image",
       src: "/work/tenx_money_exchange_platform.png",
-      width: 3520,
+      width: 2480,
       height: 2480,
     },
     theme: "dark",
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     gridMedia: {
       type: "image",
       src: "/work/prep.png",
-      width: 3520,
+      width: 2480,
       height: 2480,
     },
     theme: "light",
@@ -76,7 +76,7 @@ export const PROJECTS: Project[] = [
     gridMedia: {
       type: "image",
       src: "/work/bookdu.png",
-      width: 3520,
+      width: 2480,
       height: 2480,
     },
     theme: "light",
@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
     gridMedia: {
       type: "image",
       src: "/work/prep_myskills.png",
-      width: 3520,
+      width: 2480,
       height: 2480,
     },
     theme: "light",
@@ -113,7 +113,7 @@ export const PROJECTS: Project[] = [
     gridMedia: {
       type: "image",
       src: "/work/nexa_knoweledge_agentic_ai_tool.png",
-      width: 3520,
+      width: 2480,
       height: 2480,
     },
     theme: "light",
@@ -131,7 +131,7 @@ export const PROJECTS: Project[] = [
     gridMedia: {
       type: "image",
       src: "/work/swash.png",
-      width: 3520,
+      width: 2480,
       height: 2480,
     },
     theme: "light",
