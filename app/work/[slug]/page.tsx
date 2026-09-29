@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AapCaseStudy } from "@/components/aap-case-study";
 import { BookduCaseStudy } from "@/components/bookdu-case-study";
+import { PrepmyskillsCaseStudy } from "@/components/prepmyskills-case-study";
 import { HapptagCaseStudy } from "@/components/happtag-case-study";
 import { TenxCaseStudy } from "@/components/tenx-case-study";
 import { ProjectMedia } from "@/components/project-media";
@@ -46,6 +47,10 @@ export default async function ProjectPage({
 
   if (project.slug === "bookdu") {
     return <BookduCaseStudy />;
+  }
+
+  if (project.slug === "prepmyskills") {
+    return <PrepmyskillsCaseStudy />;
   }
 
   return (
